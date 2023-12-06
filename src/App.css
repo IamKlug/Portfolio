@@ -99,6 +99,7 @@ p {
   .container {
     flex-direction: row-reverse;
     flex-wrap: nowrap;
+    justify-content: space-evenly;
     padding: 25px;
   }
 

@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   const transform = {
-      transform: `translate(${mousePosition.x * -0.05}px, ${mousePosition.y * -0.03}px)`
+      transform: `translate(${mousePosition.x * -0.025}px, ${mousePosition.y * -0.015}px)`
   };
 
   return (
