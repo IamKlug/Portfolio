@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #334455;
+}
+
+#root {
+  min-height: 100vh;
+  min-width: 100%;
+  padding: 20px 0px 50px 0px;
+}
+
+.overlay {
+  background-color: #ffffff7a;
+  background-image: url(https://kitpapa.net/softpro/wp-content/uploads/2023/11/HeyWordpress-texture-3.png);
+  opacity: 1;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 15px;
+}
+
+
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 100%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  box-shadow: 0px 0px 35px -15px rgba(0,0,0,0.5);
+  transition: transform ease-out;
+  animation-delay: 100ms;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.link-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.link {
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  fill: #08d665;
+  color: #08d665;
+  background-color: #08d66500;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #08d665;
+  border-radius: 25px 25px 25px 25px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+@media screen and (min-width: 1025px) {
+  .container {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    padding: 25px;
+  }
+
+  .text-container {
+    align-items: flex-start;
+  }
+
+  h1, h2, p {
+    text-align: left;
+  }
+  
+}
